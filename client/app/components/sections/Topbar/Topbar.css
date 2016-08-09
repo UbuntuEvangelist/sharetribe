@@ -59,6 +59,7 @@
   }
 
   & .topbarLogo {
+    min-width: var(--Topbar_logoMinWidth);
     max-height: var(--Topbar_logoMaxHeightMobile);
     max-width: 70%;
 

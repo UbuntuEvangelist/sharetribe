@@ -1,7 +1,17 @@
 .menuPriority {
   display: flex;
   align-items: center;
+
+  @nest :global(.js-enabled) & {
+    visibility: hidden;
+
+    &.isMeasured {
+      visibility: visible;
+    }
+  }
 }
+
+.isMeasured {}
 
 .priorityLinks {
   overflow: hidden;
