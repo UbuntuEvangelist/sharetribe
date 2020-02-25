@@ -4,10 +4,10 @@ ruby '2.3.1'
 
 gem 'rails', '4.2.7'
 
-gem 'coffee-rails', "~> 4.0.1"
+gem 'coffee-rails', '~> 4.0.1'
 gem 'uglifier', "~> 2.7.2"
 
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.5'
 gem 'compass-rails', '~> 2.0'
 
 # Requiring 'compass' gem directly is not normally needed,
@@ -23,7 +23,7 @@ gem 'jquery-rails', '3.1.3'
 # Bundle the extra gems:
 
 # gem 'heroku' install the Heroku toolbelt (https://toolbelt.heroku.com/) instead (as gem had some problems)
-gem "passenger", "~> 5.0.18"
+gem "passenger", "~> 5.0.30"
 
 gem "mysql2", "~> 0.3.14"
 gem 'haml', "~> 4.0.5"
@@ -53,15 +53,15 @@ gem 'delayed_job', "~> 4.1.1"
 gem 'delayed_job_active_record', "~> 4.1.0"
 
 gem 'web_translate_it', "~>2.1.8"
-gem 'rails-i18n', '~> 4.0.8'
-gem 'devise', "~>3.5.0"
+gem 'rails-i18n', '~> 4.0.9'
+gem 'devise', '~> 3.5.10'
 gem 'devise-encryptable', '~> 0.2.0'
 gem "omniauth-facebook", "~> 3.0.0"
 
 # Dynamic form adds helpers that are needed, e.g. error_messages
 gem 'dynamic_form', "~>1.1.4"
 gem "truncate_html", "~>0.9.1"
-gem 'money-rails', "~>1.3.0"
+gem 'money-rails', '~> 1.3.0'
 
 # The latest release (0.9.0) is not Rails 4 compatible
 gem 'mercury-rails',
@@ -78,7 +78,7 @@ gem 'stringex', '~> 2.5.2'
 gem 'paypal-sdk-permissions', '~> 1.96.4'
 gem 'paypal-sdk-merchant', '~> 1.116.0'
 gem 'airbrake', '~> 4.1.0'
-gem 'librato-rails', "~> 0.11.1"
+gem 'librato-rails', '~> 0.11.1'
 
 gem 'jwt', '~> 1.5.2'
 
@@ -90,12 +90,12 @@ gem 'oauth2',
   branch: 'master',
   ref: 'e0006cb5099bf392f011eb5c49cbec4f893bbdba'
 
-gem 'lograge', "~> 0.3.2"
+gem 'lograge', '~> 0.3.6'
 gem 'public_suffix', "~> 1.5.1" # Needed currently to set GA hostname right, probably not
 # needed anymore when GA script updated.
 
 # Session store was removed from Rails 4
-gem 'activerecord-session_store', "~> 1.0.0.pre"
+gem 'activerecord-session_store', '~> 1.0.0.0'
 
 # This gem was added to make Rails 3.2 -> 4 upgrade path easier.
 # It adds `attr_protected` and `attr_accessor` methods to models.
@@ -134,29 +134,29 @@ end
 
 group :development, :test do
   gem 'rubocop', '~> 0.37.2', require: false
-  gem 'factory_girl_rails', "~> 4.4.1"
+  gem 'factory_girl_rails', '~> 4.4.1'
 end
 
 group :development, :staging do
-  gem 'meta_request', '~> 0.3'
+  gem 'meta_request', '~> 0.4', '>= 0.4.0'
 end
 
 group :development do
   gem 'rb-fsevent', "~> 0.9.4", require: false
   gem 'guard-rspec', "~> 4.6.5", require: false
-  gem 'annotate', "~> 2.6.5"
+  gem 'annotate', '~> 2.7.2'
   gem 'zeus', '~> 0.15.4', require: false
-  gem 'quiet_assets', "~> 1.1.0"
+  gem 'quiet_assets', '~> 1.1.0'
   gem 'better_errors', "~> 2.1.1"
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   gem 'awesome_print', '~> 1.6.1'
 end
 
 group :test do
   gem 'capybara', '~> 2.6.2'
-  gem "rspec-rails", "~>3.0"
+  gem "rspec-rails", "~> 3.5", ">= 3.5.1"
 
-  gem 'cucumber-rails', '~> 1.4.0', require: false # require: false is needed for cucumber-rails
+  gem 'cucumber-rails', '~> 1.4.4', require: false # require: false is needed for cucumber-rails
 
   gem 'selenium-webdriver', '~> 2.45'
 
@@ -178,7 +178,7 @@ end
 
 
 gem 'therubyracer', '~> 0.12.2', platforms: :ruby
-gem 'js-routes', '~> 1.2.5'
+gem 'js-routes', '~> 1.2.8'
 
 # Color utilities needed for landing page
 gem 'color', '~> 1.8'
