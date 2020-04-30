@@ -17,7 +17,9 @@
     "print-phantomjs-version": "phantomjs --version",
     "start-phantomjs": "phantomjs --webdriver=8910",
     "styleguide": "start-storybook -p 9001",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "storybook-to-ghpages",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-cli": "6.10.1",
@@ -58,7 +60,8 @@
     "i18n-js": "http://github.com/sharetribe/i18n-js/archive/interpolation-mode.tar.gz",
     "customfile-loader": "./customloaders/customfileloader",
     "raw-loader": "0.5.1",
-    "whatwg-fetch": "1.0.0"
+    "whatwg-fetch": "1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@kadira/storybook": "1.31.0",
@@ -77,5 +80,6 @@
   },
   "browser": {
     "fs": false
-  }
+  },
+  "snyk": true
 }
