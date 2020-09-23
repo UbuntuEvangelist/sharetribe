@@ -42,7 +42,7 @@
     "postcss-loader": "0.9.1",
     "postcss-cssnext": "2.6.0",
     "postcss-mixins": "4.0.2",
-    "react": "15.1.0",
+    "react": "16.5.0",
     "react-dom": "15.1.0",
     "react-on-rails": "5.2.0",
     "react-redux": "4.4.5",
