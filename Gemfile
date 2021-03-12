@@ -95,7 +95,7 @@ gem 'public_suffix', "~> 1.5.1" # Needed currently to set GA hostname right, pro
 # needed anymore when GA script updated.
 
 # Session store was removed from Rails 4
-gem 'activerecord-session_store', "~> 1.0.0.pre"
+gem 'activerecord-session_store', '~> 2.0.0.0'
 
 # This gem was added to make Rails 3.2 -> 4 upgrade path easier.
 # It adds `attr_protected` and `attr_accessor` methods to models.
