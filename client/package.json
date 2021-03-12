@@ -40,7 +40,7 @@
     "node-libs-browser": "1.0.0",
     "node-sass": "3.7.0",
     "postcss-loader": "0.9.1",
-    "postcss-cssnext": "2.6.0",
+    "postcss-cssnext": "3.0.0",
     "postcss-mixins": "4.0.2",
     "react": "15.1.0",
     "react-dom": "15.1.0",
