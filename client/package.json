@@ -38,7 +38,7 @@
     "loader-utils": "0.2.15",
     "lodash": "4.13.1",
     "node-libs-browser": "1.0.0",
-    "node-sass": "3.7.0",
+    "node-sass": "6.0.1",
     "postcss-loader": "0.9.1",
     "postcss-cssnext": "2.6.0",
     "postcss-mixins": "4.0.2",
