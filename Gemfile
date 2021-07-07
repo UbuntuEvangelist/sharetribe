@@ -73,7 +73,7 @@ gem 'countries', '~> 1.2', '>= 1.2.2'
 gem 'braintree', "~> 2.30.0"
 gem "mail_view", "~> 1.0.3"
 gem 'statesman', '~> 1.3.1'
-gem "premailer", "~> 1.8.2"
+gem "premailer", "~> 1.8.7"
 gem 'stringex', '~> 2.5.2'
 gem 'paypal-sdk-permissions', '~> 1.96.4'
 gem 'paypal-sdk-merchant', '~> 1.116.0'
@@ -156,7 +156,7 @@ group :test do
   gem 'capybara', '~> 2.6.2'
   gem "rspec-rails", "~>3.0"
 
-  gem 'cucumber-rails', '~> 1.4.0', require: false # require: false is needed for cucumber-rails
+  gem 'cucumber-rails', '~> 1.4.4', require: false # require: false is needed for cucumber-rails
 
   gem 'selenium-webdriver', '~> 2.45'
 
